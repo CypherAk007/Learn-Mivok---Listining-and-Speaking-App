@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginBottom="1dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <!--        android:background="@color/primary_color"-->
+
+        <!--        <android.support.design.widget.TabLayout-->
+        <!--            android:id="@+id/tabs"-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="wrap_content" />-->
+        <!--        <androidx.appcompat.widget.Toolbar-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="wrap_content">-->
+
+        <!--            <TextView-->
+        <!--                android:layout_width="match_parent"-->
+        <!--                android:layout_height="match_parent"-->
+        <!--                android:background="#075E54"-->
+        <!--                android:text="MIVOK"-->
+        <!--                android:textColor="@color/white"-->
+        <!--                android:textSize="18sp" />-->
+        <!--        </androidx.appcompat.widget.Toolbar>-->
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorPrimary"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:visibility="visible" />
+        </androidx.appcompat.widget.Toolbar>
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tabs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#128C7E"
+            app:tabIndicatorColor="@color/white"
+            app:tabTextColor="@color/white" />
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/viewpager"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+        <!--        <TextView-->
+        <!--            android:id="@+id/numbers"-->
+        <!--            style="@style/CategoryStyle"-->
+        <!--            android:background="@color/category_numbers"-->
+        <!--            android:text="@string/category_numbers"/>-->
+
+        <!--&lt;!&ndash;            android:onClick="openNumbersList"&ndash;&gt;-->
+
+
+        <!--        <TextView-->
+        <!--            android:id="@+id/family"-->
+        <!--            style="@style/CategoryStyle"-->
+        <!--            android:background="@color/category_family"-->
+        <!--            android:text="@string/category_family" />-->
+
+        <!--        <TextView-->
+        <!--            android:id="@+id/colors"-->
+        <!--            style="@style/CategoryStyle"-->
+        <!--            android:background="@color/category_colors"-->
+        <!--            android:text="@string/category_colors" />-->
+
+        <!--        <TextView-->
+        <!--            android:id="@+id/phrases"-->
+        <!--            style="@style/CategoryStyle"-->
+        <!--            android:background="@color/category_phrases"-->
+        <!--            android:text="@string/category_phrases" />-->
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
