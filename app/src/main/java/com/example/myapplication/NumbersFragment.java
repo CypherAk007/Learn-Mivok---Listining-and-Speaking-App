@@ -62,16 +62,16 @@ public class NumbersFragment extends Fragment {
 //        setContentView(R.layout.activity_numbers);
             final ArrayList<Word> words = new ArrayList<Word>();//final is used to call in onclicklistner
             View rootView = inflater.inflate(R.layout.activity_numbers, container, false);
-            words.add(new Word("One", "Lutti", R.drawable.number_one, R.raw.number_one));
-            words.add(new Word("Two", "Otiiko", R.drawable.number_two, R.raw.number_two));
-            words.add(new Word("Three", "Tolookosu", R.drawable.number_three, R.raw.number_three));
-            words.add(new Word("Four", "Oyyisa", R.drawable.number_four, R.raw.number_four));
-            words.add(new Word("Five", "Massokka", R.drawable.number_five, R.raw.number_five));
-            words.add(new Word("Six", "Temmokka", R.drawable.number_six, R.raw.number_six));
-            words.add(new Word("Seven", "Kenekaku", R.drawable.number_seven, R.raw.number_seven));
-            words.add(new Word("Eight", "Kawinta", R.drawable.number_eight, R.raw.number_eight));
-            words.add(new Word("Nine", "Wo'e", R.drawable.number_nine, R.raw.number_nine));
-            words.add(new Word("Ten", "na'aacha", R.drawable.number_ten, R.raw.number_ten));
+            words.add(new Word("One", "ಒಂದು - Ondu", R.drawable.number_one, R.raw.number_one));
+            words.add(new Word("Two", "ಎರಡು - Eradu", R.drawable.number_two, R.raw.number_two));
+            words.add(new Word("Three", "ಮೂರು - Mūru", R.drawable.number_three, R.raw.number_three));
+            words.add(new Word("Four", "ನಾಲ್ಕು - Nālku", R.drawable.number_four, R.raw.number_four));
+            words.add(new Word("Five", "ಐದು - Aidu", R.drawable.number_five, R.raw.number_five));
+            words.add(new Word("Six", "ಆರು - Āru", R.drawable.number_six, R.raw.number_six));
+            words.add(new Word("Seven", "ಏಳು - Ēlu ", R.drawable.number_seven, R.raw.number_seven));
+            words.add(new Word("Eight", "ಎಂಟು - Eṇṭu ", R.drawable.number_eight, R.raw.number_eight));
+            words.add(new Word("Nine", "ಒಂಬತ್ತು - Ombattu", R.drawable.number_nine, R.raw.number_nine));
+            words.add(new Word("Ten", "ಹತ್ತು - Hattu", R.drawable.number_ten, R.raw.number_ten));
 
 
 //        WordAdapter adapter = new WordAdapter(this, words, R.color.category_numbers);//context,layout file,list of objects

@@ -55,7 +55,8 @@
                 android:textColor="@color/white"
                 android:textSize="18sp"
                 android:textStyle="bold"
-                android:visibility="visible" />
+                android:visibility="visible"
+                app:layout_scrollFlags="scroll|enterAlways" />
         </androidx.appcompat.widget.Toolbar>
 
         <com.google.android.material.tabs.TabLayout
